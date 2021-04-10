@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/estimate_reps_percent_baechle"
+        android:title="Baechle"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/estimate_reps_percent_brzycki"
+        android:title="Brzycki"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/estimate_reps_percent_dos_remedios"
+        android:title="dos Remedios"
+        app:showAsAction="never" />
+
+</menu>
