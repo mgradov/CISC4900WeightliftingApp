@@ -85,7 +85,7 @@ public class OneRepMaxFragment extends Fragment {
         //setSupportActionBar(toolbar);
         setHasOptionsMenu(true);
 
-        textView = getView().findViewById(R.id.textView);
+                textView = getView().findViewById(R.id.textView);
         textView2 = getView().findViewById(R.id.textView2);
         textView3 = getView().findViewById(R.id.textView3);
         textView4 = getView().findViewById(R.id.textView4);

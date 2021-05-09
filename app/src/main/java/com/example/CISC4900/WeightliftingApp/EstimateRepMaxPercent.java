@@ -7,7 +7,7 @@ public class EstimateRepMaxPercent {
     public static final int DOS_REMEDIOS = 2;
 
     public static final double ONE_REP_MAX_BAECHLE      =1.00;
-    public static final double TWO_REP_MAX_BAECHLE      =.95;
+    public static final double TWO_REP_MAX_BAECHLE       =.95;
     public static final double THREE_REP_MAX_BAECHLE    =.93;
     public static final double FOUR_REP_MAX_BAECHLE     =.90;
     public static final double FIVE_REP_MAX_BAECHLE     =.87;
@@ -25,7 +25,7 @@ public class EstimateRepMaxPercent {
     public static final double THREE_REP_MAX_BRZYCKI    =.90;
     public static final double FOUR_REP_MAX_BRZYCKI     =.88;
     public static final double FIVE_REP_MAX_BRZYCKI     =.86;
-    public static final double SIX_REP_MAX_BRZYCKI      =.83;
+    public static final double SIX_REP_MAX_BRZYCKI       =.83;
     public static final double SEVEN_REP_MAX_BRZYCKI    =.80;
     public static final double EIGHT_REP_MAX_BRZYCKI    =.78;
     public static final double NINE_REP_MAX_BRZYCKI     =.76;
@@ -43,10 +43,10 @@ public class EstimateRepMaxPercent {
     public static final double SEVEN_REP_MAX_DOS_REMEDIOS       =0;
     public static final double EIGHT_REP_MAX_DOS_REMEDIOS       =.75;
     public static final double NINE_REP_MAX_DOS_REMEDIOS        =0;
-    public static final double TEN_REP_MAX_DOS_REMEDIOS         =.70;
-    public static final double ELEVEN_REP_MAX_DOS_REMEDIOS      =0;
-    public static final double TWELVE_REP_MAX_DOS_REMEDIOS      =.65;
-    public static final double FIFTEEN_REP_MAX_DOS_REMEDIOS     =.60;
+    public static final double TEN_REP_MAX_DOS_REMEDIOS     =.70;
+    public static final double ELEVEN_REP_MAX_DOS_REMEDIOS  =0;
+    public static final double TWELVE_REP_MAX_DOS_REMEDIOS  =.65;
+    public static final double FIFTEEN_REP_MAX_DOS_REMEDIOS =.60;
 
     private double oneRepMax    = ONE_REP_MAX_BAECHLE    ;
     private double twoRepMax    = TWO_REP_MAX_BAECHLE    ;

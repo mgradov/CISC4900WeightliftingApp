@@ -1,5 +1,6 @@
 package com.example.CISC4900.WeightliftingApp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -77,12 +78,12 @@ public class SearchActivity extends AppCompatActivity implements DatePickerFragm
     public void displayLog(View view) {
 
         if (dateFrom != null & dateTo != null) {
-            /*Intent data = new Intent(getBaseContext(), LogFragment.class);
+            Intent data = new Intent(getBaseContext(), LogFragment.class);
             data.putExtra(EXTRA_DATE_FROM, dateFrom.getTime());
             data.putExtra(EXTRA_DATE_TO, dateTo.getTime());
 
             setResult(RESULT_OK, data);
-            finish();*/
+            finish();
         } else if (dateFrom != null && dateTo == null || dateFrom == null && dateTo != null) {
             Toast.makeText(this, "implement 1 date selection", Toast.LENGTH_SHORT).show();
         } else {

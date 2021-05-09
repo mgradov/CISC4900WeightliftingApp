@@ -151,14 +151,24 @@ public class AddEditExerciseActivity extends AppCompatActivity implements DatePi
                     Toast.makeText(this, "Type exercise to continue", Toast.LENGTH_SHORT).show();
                     return true;
                 }
-                //saveRecord();
+                saveRecord();
+                /*Record record = new Record();
+                record.setDate(date.toString());
+                record.setExercise(autoCompleteTextView.getText().toString());
+                record.setWeight(weight * 5 + 5);
+                record.setSets(sets);
+                record.setReps(reps);
+
+                Intent intent = new Intent(getBaseContext(), LogFragment.class);
+                intent.putExtra("EXTRA_RECORD", record);
+                startActivity(intent);*/
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
         }
     }
 
-    /*private void saveRecord() {
+    private void saveRecord() {
         Intent data = new Intent(getBaseContext(), LogFragment.class);
         data.putExtra(EXTRA_DATE, date.getTime());
         data.putExtra(EXTRA_EXERCISE, autoCompleteTextView.getText().toString());
@@ -173,7 +183,7 @@ public class AddEditExerciseActivity extends AppCompatActivity implements DatePi
 
         setResult(RESULT_OK, data);
         finish();
-    }*/
+    }
 
     //When clicking on weight number picker number keyboard pops up
     private EditText findInput(ViewGroup np) {

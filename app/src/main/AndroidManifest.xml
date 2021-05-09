@@ -11,6 +11,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name="com.example.CISC4900.WeightliftingApp.ChartActivity">
+
+        </activity>
         <activity android:name="com.example.CISC4900.WeightliftingApp.SearchActivity">
 
         </activity>
@@ -23,11 +26,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".LogFragment"
+            android:name="com.example.CISC4900.WeightliftingApp.LogFragment"
             android:launchMode="singleTop" />
         <activity
             android:name="com.example.CISC4900.WeightliftingApp.AddEditExerciseActivity"
-            android:parentActivityName=".LogFragment" />
+            android:parentActivityName="com.example.CISC4900.WeightliftingApp.LogFragment" />
         <activity android:name="com.example.CISC4900.WeightliftingApp.OneRepMaxFragment" />
     </application>
 

@@ -56,7 +56,7 @@ public class NavigationDrawer extends AppCompatActivity implements NavigationVie
                 //startActivity(new Intent(NavigationDrawer.this, OneRepMaxFragment.class));
                 break;
             case R.id.log:
-                //getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new LogFragment()).commit();
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new LogFragment()).commit();
                 getSupportFragmentManager().executePendingTransactions();
                 break;
             case R.id.settings:
