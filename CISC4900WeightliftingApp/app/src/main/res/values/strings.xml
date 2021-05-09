@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">1RM</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string-array name="exercises">
+        <item>Flat Bench</item>
+        <item>Incline Bench</item>
+        <item>Overhead Press (Seated Barbell)</item>
+        <item>Overhead Press (Standing Barbell)</item>
+        <item>Overhead Press (Seated Dumbbell)</item>
+        <item>Dips</item>
+        <item>Bicep Curl (Rope)</item>
+        <item>Bicep Curl (EZ Bar)</item>
+        <item>Bicep Curl (Dumbbell)</item>
+        <item>Hammer Curl</item>
+        <item>Tricep Pushdown</item>
+        <item>Tricep Extension</item>
+        <item>Face Pull</item>
+        <item>Lateral Raise (Cable)</item>
+        <item>Lateral Raise (Dumbbell)</item>
+        <item>High Bar Squat</item>
+        <item>Low Bar Squat</item>
+        <item>Front Squat</item>
+        <item>Conventional Deadlift</item>
+        <item>Sumo Deadlift</item>
+        <item>Hamstring Curl</item>
+        <item>Leg Extension</item>
+        <item>Calf Raise</item>
+        <item>Row (Cable)</item>
+        <item>Seated Row (Cable)</item>
+        <item>Seated Row (Machine)</item>
+        <item>T Bar Row</item>
+        <item>Barbell Row</item>
+        <item>Pendlay Row</item>
+        <item>T Bar Row</item>
+        <item>Pull Up</item>
+        <item>Chin Up</item>
+        <item>Lat Pulldown</item>
+        <item>Lat Pullover</item>
+        <item>Rear Delt Fly</item>
+        <item>Reverse Curl</item>
+        <item>Wrist Curl</item>
+        <item>Leg Press</item>
+        <item>Split Squat</item>
+        <item>Hip Thrust (Barbell)</item>
+        <item>Hip Thrust (Rope)</item>
+        <item>Lunges</item>
+        <item>Flyes (Standing)</item>
+        <item>Flyes (Seated)</item>
+        <item>Flyes (Dennis)</item>
+        <item>Upper Chest Flyes (Standing)</item>
+        <item>Upper Chest Flyes (Seated)</item>
+        <item>Shrug (Cable)</item>
+    </string-array>
+
+    <string-array name="repMaxes">
+        <item>1RM</item>
+        <item>2RM</item>
+        <item>3RM</item>
+        <item>4RM</item>
+        <item>5RM</item>
+        <item>6RM</item>
+        <item>7RM</item>
+        <item>8RM</item>
+        <item>9RM</item>
+        <item>10RM</item>
+        <item>11RM</item>
+        <item>12RM</item>
+        <item>15RM</item>
+    </string-array>
+
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails</string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="action_delete_item">Exercise Deleted</string>
+    <string name="action_undo">UNDO</string>
+
+</resources>
